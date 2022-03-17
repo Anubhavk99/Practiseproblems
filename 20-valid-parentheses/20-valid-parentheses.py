@@ -1,6 +1,5 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        k=0
         ob=[]
         if len(s)%2!=0:
             return False
