@@ -9,4 +9,5 @@ class Solution:
                     k.pop()
             elif p and p != '.':
                 k.append(p)
-        return '/' + '/'.join(k)
+        print(k)
+        return '/'+'/'.join(k)
