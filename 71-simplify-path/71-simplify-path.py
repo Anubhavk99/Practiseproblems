@@ -1,6 +1,6 @@
 class Solution:
     def simplifyPath(self, path: str) -> str:
-        p=['/']
+        p='/'
         d=''
         k=[]
         for p in path.split("/"):
